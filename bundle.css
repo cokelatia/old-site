@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crimson Text'), local('CrimsonText-Roman'), url(font/3IFMwfRa07i-auYR-B-zNaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+
+h1, h2, h3, h4, h5, body {
+  font-family: "Crimson Text", sans-serif;
+}
+
+body {}
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo-container {
+  background-color: #231F20; 
+}
+
+.clear {
+  max-width: none;
+}
+
+.icon-small {
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  width: 85px;
+}

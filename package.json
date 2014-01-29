@@ -1,0 +1,42 @@
+{
+  "name": "rockybars.com",
+  "version": "0.0.2",
+  "description": "RockyBars.com main website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rockybars/rockybars.github.io.git"
+  },
+  "keywords": [
+    "rockybars.com",
+    "main",
+    "website"
+  ],
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "main": "./lib/main.js",
+  "browser": {
+    "jquery": "./lib/foundation/js/vendor/jquery.js"
+  },
+  "browserify-shim": {
+     "foundation" : "global:Foundation"
+  },
+  "devDependencies": {
+    "browserify": "~3.24.1",
+    "browserify-shim": "~3.2.2"
+  },
+  "dependencies": {
+    "inherits": "~2.0.1"
+  },
+  "author": "Dhi Aurrahman <diorahman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rockybars/rockybars.github.io/issues"
+  }
+}
