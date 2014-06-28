@@ -1,0 +1,81 @@
+.wrapper-header {
+    background: #2a2a2a;
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+    border-bottom: 1px solid white;
+    margin-bottom: 25px;
+}
+
+
+.crop {
+    width: 328px;
+    height: 164px;
+    overflow: hidden;
+}
+
+.crop img {
+    width: 328px;
+    height: 328px;
+    margin: 0px 0px 0px 0px;
+}
+
+.wrapper-header #instafeed {
+    width: 150%;
+    height: 300px;
+    position: absolute;
+    top: -20px;
+    left: -100px;
+    z-index: 1;
+}
+
+.wrapper-header .shadow {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0icmdiYSgwLDAsMCwwLjgpIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, rgba(0,0,0,0.4)), color-stop(100%, rgba(0,0,0,0.8)));
+    background: -webkit-linear-gradient(rgba(0,0,0,0.4) 50%,rgba(0,0,0,0.8) 100%);
+    background: -moz-linear-gradient(rgba(0,0,0,0.4) 50%,rgba(0,0,0,0.8) 100%);
+    background: -o-linear-gradient(rgba(0,0,0,0.4) 50%,rgba(0,0,0,0.8) 100%);
+    background: linear-gradient(rgba(0,0,0,0.4) 50%,rgba(0,0,0,0.8) 100%);
+}
+
+.wrapper-header .wrapper-content {
+    position: absolute;
+    bottom: 20px;
+    left: 190px;
+    z-index: 100;
+}
+
+#twitter-widget-0 {
+  height: 450px;
+}
+
+.wrapper-header .wrapper-content img{
+  height: 100%;
+}
+
+.wrapper-header .wrapper-content a{
+  margin-left: 1000px;
+}
+
+
+.wrapper-header header {
+    margin: auto auto auto auto;
+    text-align: left;
+    width: 100%;
+    max-width: 645px;
+    padding-left: 15px;
+    position: relative;
+    color: white;
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 300;
+    font-size: 2.4375em !important;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0,0,0,0.65) 0 1px;
+}
+
